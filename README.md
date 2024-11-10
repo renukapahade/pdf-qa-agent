@@ -46,15 +46,7 @@ CHUNK_SIZE=4000
 CHUNK_OVERLAP=200
 ```
 
-## 💻 Usage
-
-### Using the Runner Script
-
-```bash
-python run.py path/to/document.pdf "#slack-channel" "Question 1" "Question 2" "Question 3"
-```
-
-### Using Module Directly
+## Usage
 
 ```bash
 python run.py handbook.pdf "#welcome"  "What is the name of the company?" "Who is the CEO of the company?" "What is their vacation policy?" "What is the termination policy?"
@@ -76,7 +68,8 @@ pdf-qa-agent/
 ├── .gitignore
 ├── README.md
 ├── requirements.txt
-└── setup.py
+├── setup.py
+└── run.py
 ```
 
 ## Future Improvements
